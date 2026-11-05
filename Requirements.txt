@@ -1,0 +1,65 @@
+# ===============================
+# UI
+# ===============================
+streamlit==1.38.0
+
+# ===============================
+# Audio / YouTube
+# ===============================
+yt-dlp
+pydub
+ffmpeg-python
+
+# ===============================
+# Whisper
+# ===============================
+git+https://github.com/openai/whisper.git
+torch
+torchaudio
+
+# ===============================
+# Translation
+# ===============================
+deep-translator
+
+# ===============================
+# LangChain
+# ===============================
+langchain
+langchain-community
+langchain-core
+
+# ===============================
+# Mistral
+# ===============================
+langchain-mistralai
+mistralai
+
+# ===============================
+# Vector Database
+# ===============================
+chromadb
+langchain-chroma
+
+# ===============================
+# Embeddings
+# ===============================
+sentence-transformers
+langchain-huggingface
+huggingface-hub
+
+# ===============================
+# Export
+# ===============================
+fpdf2
+reportlab
+
+# ===============================
+# Utilities
+# ===============================
+python-dotenv
+pydantic
+numpy
+tqdm
+requests
+pandas
